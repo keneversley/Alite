@@ -5,7 +5,7 @@
   }
   
   .main_page {
-    background-color: #000;
+    background-color: #000000;
     height: 100vh;
   }
   
@@ -47,8 +47,8 @@
   }
   
   .logo input:focus {
-    background-color: #f5b53a;
-    color: #fff;
+    background-color: #fff;
+    color: #aa3af5;
   }
   
   header nav ul {
@@ -65,7 +65,7 @@
   }
   
   header nav ul li a:hover {
-    color: #f5b53a;
+    color: #aa3af5;
     font-family: Brotherina;
   }
   
@@ -79,7 +79,7 @@
   #main_row .showcase2 h1 {
     font-size: 4rem;
     font-family: "Myriad Pro";
-    color: #f5b53a;
+    color: #aa3af5;
     padding-top: 1rem;
   }
   
@@ -91,7 +91,7 @@
   #main_row .showcase2 button {
     font-family: "Myriad Pro";
     background-color: #fff;
-    color: #f5b53a;
+    color: #aa3af5;
     padding: 1rem 2rem 1rem 2rem;
     font-weight: bolder;
     border: none;
@@ -101,7 +101,7 @@
   
   #main_row .showcase2 button:hover {
     color: #fff;
-    background-color: #f5b53a;
+    background-color: #aa3af5;
     transition: background-color 0.5s ease-in;
     cursor: pointer;
   }
@@ -123,6 +123,41 @@
   }
   
   #main_row .showcase2 .message span:hover {
-    color: #f5b53a;
+    color: #aa3af5;
+  }
+  #main_row .showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 1rem;
+    max-width: 50%; /* Or adjust based on your layout needs */
   }
   
+  #main_row .showcase img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: #000000; /* Ensures no border if image has transparency */
+    border-radius: 0.5rem; /* Optional: add smooth edges */
+  }
+  .showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 1rem;
+  }
+  
+  .showcase img {
+    max-width: 100%;
+    height: auto;
+    width: 450px; /* Adjust size as needed */
+    object-fit: contain;
+  }
+  #main_row .showcase img {
+    background-color: transparent;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
